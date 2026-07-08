@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Generated data (recreated by running main.py — not part of the source repo)
+data/*.db
+exports/*.csv
+logs/*.log
+
+# Keep the directories themselves in git
+!data/.gitkeep
+!exports/.gitkeep
+!logs/.gitkeep
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
